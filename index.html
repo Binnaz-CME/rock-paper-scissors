@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/colors.css" />
+    <link rel="stylesheet" href="./styles/typography.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Rock, paper and scissors</h1>
+      <h2>Play by klicking on your choice 🤩</h2>
+      <p class="infoP">
+        The one who gets the highest score after five rounds wins the game!
+      </p>
+      <h3>Round <span class="round">1</span></h3>
+      <div>
+        <section>
+          <p>Your score:<span class="user-score">5</span></p>
+          <p class="user-picked">You picked...</p>
+        </section>
+        <section>
+          <p class="display-winner"></p>
+        </section>
+        <section>
+          <p>Computer score:<span class="cpu-score">6</span></p>
+          <p class="cpu-picked">Computer picked...</p>
+          <img id="cpuElement" src="./images/paper.png" />
+        </section>
+        <button>New game</button>
+      </div>
+    </main>
+  </body>
+</html>
+

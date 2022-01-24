@@ -1,0 +1,34 @@
+:root {
+  --main-font-size: 1.8rem;
+  --bold-font-weight: 700;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+.display-winner {
+  font-size: 2.6rem;
+  font-weight: var(--bold-font-weight);
+}
+
+h2,
+p {
+  font-size: var(--main-font-size);
+  font-weight: 300;
+}
+
+h3,
+span,
+.cpu-picked,
+.user-picked {
+  font-size: var(--main-font-size);
+  font-weight: var(--bold-font-weight);
+}
+
+button {
+  font-size: 1.4;
+  font-weight: var(--bold-font-weight);
+}
